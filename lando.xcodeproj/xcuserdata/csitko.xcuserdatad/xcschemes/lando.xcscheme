@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "559A53AB1C7F4AD600A13D10"
+               BlueprintIdentifier = "559A54161C7F51F500A13D10"
                BuildableName = "lando.app"
                BlueprintName = "lando"
                ReferencedContainer = "container:lando.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "559A53C41C7F4AD700A13D10"
+               BlueprintIdentifier = "559A542F1C7F51F500A13D10"
                BuildableName = "landoTests.xctest"
                BlueprintName = "landoTests"
                ReferencedContainer = "container:lando.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "559A53CF1C7F4AD700A13D10"
+               BlueprintIdentifier = "559A543A1C7F51F500A13D10"
                BuildableName = "landoUITests.xctest"
                BlueprintName = "landoUITests"
                ReferencedContainer = "container:lando.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53AB1C7F4AD600A13D10"
+            BlueprintIdentifier = "559A54161C7F51F500A13D10"
             BuildableName = "lando.app"
             BlueprintName = "lando"
             ReferencedContainer = "container:lando.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53AB1C7F4AD600A13D10"
+            BlueprintIdentifier = "559A54161C7F51F500A13D10"
             BuildableName = "lando.app"
             BlueprintName = "lando"
             ReferencedContainer = "container:lando.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53AB1C7F4AD600A13D10"
+            BlueprintIdentifier = "559A54161C7F51F500A13D10"
             BuildableName = "lando.app"
             BlueprintName = "lando"
             ReferencedContainer = "container:lando.xcodeproj">

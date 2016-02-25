@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "559A53D81C7F4AD700A13D10"
+               BlueprintIdentifier = "559A54431C7F51F500A13D10"
                BuildableName = "lando WatchKit App.app"
                BlueprintName = "lando WatchKit App"
                ReferencedContainer = "container:lando.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "559A53AB1C7F4AD600A13D10"
+               BlueprintIdentifier = "559A54161C7F51F500A13D10"
                BuildableName = "lando.app"
                BlueprintName = "lando"
                ReferencedContainer = "container:lando.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "559A53E71C7F4AD700A13D10"
+               BlueprintIdentifier = "559A54521C7F51F600A13D10"
                BuildableName = "lando WatchKit Extension.appex"
                BlueprintName = "lando WatchKit Extension"
                ReferencedContainer = "container:lando.xcodeproj">
@@ -60,7 +60,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53D81C7F4AD700A13D10"
+            BlueprintIdentifier = "559A54431C7F51F500A13D10"
             BuildableName = "lando WatchKit App.app"
             BlueprintName = "lando WatchKit App"
             ReferencedContainer = "container:lando.xcodeproj">
@@ -85,7 +85,7 @@
          RemotePath = "/lando WatchKit App">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53D81C7F4AD700A13D10"
+            BlueprintIdentifier = "559A54431C7F51F500A13D10"
             BuildableName = "lando WatchKit App.app"
             BlueprintName = "lando WatchKit App"
             ReferencedContainer = "container:lando.xcodeproj">
@@ -94,7 +94,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53D81C7F4AD700A13D10"
+            BlueprintIdentifier = "559A54431C7F51F500A13D10"
             BuildableName = "lando WatchKit App.app"
             BlueprintName = "lando WatchKit App"
             ReferencedContainer = "container:lando.xcodeproj">
@@ -115,7 +115,7 @@
          RemotePath = "/lando WatchKit App">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53D81C7F4AD700A13D10"
+            BlueprintIdentifier = "559A54431C7F51F500A13D10"
             BuildableName = "lando WatchKit App.app"
             BlueprintName = "lando WatchKit App"
             ReferencedContainer = "container:lando.xcodeproj">
@@ -124,7 +124,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "559A53D81C7F4AD700A13D10"
+            BlueprintIdentifier = "559A54431C7F51F500A13D10"
             BuildableName = "lando WatchKit App.app"
             BlueprintName = "lando WatchKit App"
             ReferencedContainer = "container:lando.xcodeproj">
