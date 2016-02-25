@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559A53B11C7F4AD700A13D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53B01C7F4AD700A13D10 /* main.m */; };
+		559A53B41C7F4AD700A13D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53B31C7F4AD700A13D10 /* AppDelegate.m */; };
+		559A53B71C7F4AD700A13D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53B61C7F4AD700A13D10 /* ViewController.m */; };
+		559A53BA1C7F4AD700A13D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559A53B81C7F4AD700A13D10 /* Main.storyboard */; };
+		559A53BC1C7F4AD700A13D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559A53BB1C7F4AD700A13D10 /* Assets.xcassets */; };
+		559A53BF1C7F4AD700A13D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559A53BD1C7F4AD700A13D10 /* LaunchScreen.storyboard */; };
+		559A53CA1C7F4AD700A13D10 /* landoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53C91C7F4AD700A13D10 /* landoTests.m */; };
+		559A53D51C7F4AD700A13D10 /* landoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53D41C7F4AD700A13D10 /* landoUITests.m */; };
+		559A53DA1C7F4AD700A13D10 /* lando WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 559A53D91C7F4AD700A13D10 /* lando WatchKit App.app */; };
+		559A53E01C7F4AD700A13D10 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559A53DE1C7F4AD700A13D10 /* Interface.storyboard */; };
+		559A53E21C7F4AD700A13D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559A53E11C7F4AD700A13D10 /* Assets.xcassets */; };
+		559A53E91C7F4AD700A13D10 /* lando WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 559A53E81C7F4AD700A13D10 /* lando WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		559A53F11C7F4AD700A13D10 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53F01C7F4AD700A13D10 /* InterfaceController.m */; };
+		559A53F41C7F4AD700A13D10 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53F31C7F4AD700A13D10 /* ExtensionDelegate.m */; };
+		559A53F71C7F4AD700A13D10 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A53F61C7F4AD700A13D10 /* NotificationController.m */; };
+		559A53F91C7F4AD700A13D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559A53F81C7F4AD700A13D10 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559A53C61C7F4AD700A13D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559A53A41C7F4AD600A13D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559A53AB1C7F4AD600A13D10;
+			remoteInfo = lando;
+		};
+		559A53D11C7F4AD700A13D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559A53A41C7F4AD600A13D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559A53AB1C7F4AD600A13D10;
+			remoteInfo = lando;
+		};
+		559A53DB1C7F4AD700A13D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559A53A41C7F4AD600A13D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559A53D81C7F4AD700A13D10;
+			remoteInfo = "lando WatchKit App";
+		};
+		559A53EA1C7F4AD700A13D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559A53A41C7F4AD600A13D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559A53E71C7F4AD700A13D10;
+			remoteInfo = "lando WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		559A54001C7F4AD700A13D10 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				559A53E91C7F4AD700A13D10 /* lando WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A54041C7F4AD700A13D10 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				559A53DA1C7F4AD700A13D10 /* lando WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		559A53AC1C7F4AD600A13D10 /* lando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A53B01C7F4AD700A13D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		559A53B21C7F4AD700A13D10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		559A53B31C7F4AD700A13D10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		559A53B51C7F4AD700A13D10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		559A53B61C7F4AD700A13D10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		559A53B91C7F4AD700A13D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559A53BB1C7F4AD700A13D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559A53BE1C7F4AD700A13D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559A53C01C7F4AD700A13D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559A53C51C7F4AD700A13D10 /* landoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = landoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A53C91C7F4AD700A13D10 /* landoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = landoTests.m; sourceTree = "<group>"; };
+		559A53CB1C7F4AD700A13D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559A53D01C7F4AD700A13D10 /* landoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = landoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A53D41C7F4AD700A13D10 /* landoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = landoUITests.m; sourceTree = "<group>"; };
+		559A53D61C7F4AD700A13D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559A53D91C7F4AD700A13D10 /* lando WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lando WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A53DF1C7F4AD700A13D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		559A53E11C7F4AD700A13D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559A53E31C7F4AD700A13D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559A53E81C7F4AD700A13D10 /* lando WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "lando WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A53EE1C7F4AD700A13D10 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		559A53EF1C7F4AD700A13D10 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		559A53F01C7F4AD700A13D10 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		559A53F21C7F4AD700A13D10 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		559A53F31C7F4AD700A13D10 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		559A53F51C7F4AD700A13D10 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		559A53F61C7F4AD700A13D10 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		559A53F81C7F4AD700A13D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559A53FA1C7F4AD700A13D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559A53A91C7F4AD600A13D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53C21C7F4AD700A13D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53CD1C7F4AD700A13D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53E51C7F4AD700A13D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559A53A31C7F4AD600A13D10 = {
+			isa = PBXGroup;
+			children = (
+				559A53AE1C7F4AD600A13D10 /* lando */,
+				559A53C81C7F4AD700A13D10 /* landoTests */,
+				559A53D31C7F4AD700A13D10 /* landoUITests */,
+				559A53DD1C7F4AD700A13D10 /* lando WatchKit App */,
+				559A53EC1C7F4AD700A13D10 /* lando WatchKit Extension */,
+				559A53AD1C7F4AD600A13D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559A53AD1C7F4AD600A13D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559A53AC1C7F4AD600A13D10 /* lando.app */,
+				559A53C51C7F4AD700A13D10 /* landoTests.xctest */,
+				559A53D01C7F4AD700A13D10 /* landoUITests.xctest */,
+				559A53D91C7F4AD700A13D10 /* lando WatchKit App.app */,
+				559A53E81C7F4AD700A13D10 /* lando WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559A53AE1C7F4AD600A13D10 /* lando */ = {
+			isa = PBXGroup;
+			children = (
+				559A53B21C7F4AD700A13D10 /* AppDelegate.h */,
+				559A53B31C7F4AD700A13D10 /* AppDelegate.m */,
+				559A53B51C7F4AD700A13D10 /* ViewController.h */,
+				559A53B61C7F4AD700A13D10 /* ViewController.m */,
+				559A53B81C7F4AD700A13D10 /* Main.storyboard */,
+				559A53BB1C7F4AD700A13D10 /* Assets.xcassets */,
+				559A53BD1C7F4AD700A13D10 /* LaunchScreen.storyboard */,
+				559A53C01C7F4AD700A13D10 /* Info.plist */,
+				559A53AF1C7F4AD700A13D10 /* Supporting Files */,
+			);
+			path = lando;
+			sourceTree = "<group>";
+		};
+		559A53AF1C7F4AD700A13D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559A53B01C7F4AD700A13D10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559A53C81C7F4AD700A13D10 /* landoTests */ = {
+			isa = PBXGroup;
+			children = (
+				559A53C91C7F4AD700A13D10 /* landoTests.m */,
+				559A53CB1C7F4AD700A13D10 /* Info.plist */,
+			);
+			path = landoTests;
+			sourceTree = "<group>";
+		};
+		559A53D31C7F4AD700A13D10 /* landoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559A53D41C7F4AD700A13D10 /* landoUITests.m */,
+				559A53D61C7F4AD700A13D10 /* Info.plist */,
+			);
+			path = landoUITests;
+			sourceTree = "<group>";
+		};
+		559A53DD1C7F4AD700A13D10 /* lando WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				559A53DE1C7F4AD700A13D10 /* Interface.storyboard */,
+				559A53E11C7F4AD700A13D10 /* Assets.xcassets */,
+				559A53E31C7F4AD700A13D10 /* Info.plist */,
+			);
+			path = "lando WatchKit App";
+			sourceTree = "<group>";
+		};
+		559A53EC1C7F4AD700A13D10 /* lando WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				559A53EF1C7F4AD700A13D10 /* InterfaceController.h */,
+				559A53F01C7F4AD700A13D10 /* InterfaceController.m */,
+				559A53F21C7F4AD700A13D10 /* ExtensionDelegate.h */,
+				559A53F31C7F4AD700A13D10 /* ExtensionDelegate.m */,
+				559A53F51C7F4AD700A13D10 /* NotificationController.h */,
+				559A53F61C7F4AD700A13D10 /* NotificationController.m */,
+				559A53F81C7F4AD700A13D10 /* Assets.xcassets */,
+				559A53FA1C7F4AD700A13D10 /* Info.plist */,
+				559A53ED1C7F4AD700A13D10 /* Supporting Files */,
+			);
+			path = "lando WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		559A53ED1C7F4AD700A13D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559A53EE1C7F4AD700A13D10 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559A53AB1C7F4AD600A13D10 /* lando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A54051C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "lando" */;
+			buildPhases = (
+				559A53A81C7F4AD600A13D10 /* Sources */,
+				559A53A91C7F4AD600A13D10 /* Frameworks */,
+				559A53AA1C7F4AD600A13D10 /* Resources */,
+				559A54041C7F4AD700A13D10 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559A53DC1C7F4AD700A13D10 /* PBXTargetDependency */,
+			);
+			name = lando;
+			productName = lando;
+			productReference = 559A53AC1C7F4AD600A13D10 /* lando.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559A53C41C7F4AD700A13D10 /* landoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A54081C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "landoTests" */;
+			buildPhases = (
+				559A53C11C7F4AD700A13D10 /* Sources */,
+				559A53C21C7F4AD700A13D10 /* Frameworks */,
+				559A53C31C7F4AD700A13D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559A53C71C7F4AD700A13D10 /* PBXTargetDependency */,
+			);
+			name = landoTests;
+			productName = landoTests;
+			productReference = 559A53C51C7F4AD700A13D10 /* landoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559A53CF1C7F4AD700A13D10 /* landoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A540B1C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "landoUITests" */;
+			buildPhases = (
+				559A53CC1C7F4AD700A13D10 /* Sources */,
+				559A53CD1C7F4AD700A13D10 /* Frameworks */,
+				559A53CE1C7F4AD700A13D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559A53D21C7F4AD700A13D10 /* PBXTargetDependency */,
+			);
+			name = landoUITests;
+			productName = landoUITests;
+			productReference = 559A53D01C7F4AD700A13D10 /* landoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		559A53D81C7F4AD700A13D10 /* lando WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A54011C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "lando WatchKit App" */;
+			buildPhases = (
+				559A53D71C7F4AD700A13D10 /* Resources */,
+				559A54001C7F4AD700A13D10 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559A53EB1C7F4AD700A13D10 /* PBXTargetDependency */,
+			);
+			name = "lando WatchKit App";
+			productName = "lando WatchKit App";
+			productReference = 559A53D91C7F4AD700A13D10 /* lando WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		559A53E71C7F4AD700A13D10 /* lando WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A53FD1C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "lando WatchKit Extension" */;
+			buildPhases = (
+				559A53E41C7F4AD700A13D10 /* Sources */,
+				559A53E51C7F4AD700A13D10 /* Frameworks */,
+				559A53E61C7F4AD700A13D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lando WatchKit Extension";
+			productName = "lando WatchKit Extension";
+			productReference = 559A53E81C7F4AD700A13D10 /* lando WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559A53A41C7F4AD600A13D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "American Greetings";
+				TargetAttributes = {
+					559A53AB1C7F4AD600A13D10 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A3KUDKSDQX;
+					};
+					559A53C41C7F4AD700A13D10 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 559A53AB1C7F4AD600A13D10;
+					};
+					559A53CF1C7F4AD700A13D10 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 559A53AB1C7F4AD600A13D10;
+					};
+					559A53D81C7F4AD700A13D10 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A3KUDKSDQX;
+					};
+					559A53E71C7F4AD700A13D10 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A3KUDKSDQX;
+					};
+				};
+			};
+			buildConfigurationList = 559A53A71C7F4AD600A13D10 /* Build configuration list for PBXProject "lando" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559A53A31C7F4AD600A13D10;
+			productRefGroup = 559A53AD1C7F4AD600A13D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559A53AB1C7F4AD600A13D10 /* lando */,
+				559A53C41C7F4AD700A13D10 /* landoTests */,
+				559A53CF1C7F4AD700A13D10 /* landoUITests */,
+				559A53D81C7F4AD700A13D10 /* lando WatchKit App */,
+				559A53E71C7F4AD700A13D10 /* lando WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559A53AA1C7F4AD600A13D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53BF1C7F4AD700A13D10 /* LaunchScreen.storyboard in Resources */,
+				559A53BC1C7F4AD700A13D10 /* Assets.xcassets in Resources */,
+				559A53BA1C7F4AD700A13D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53C31C7F4AD700A13D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53CE1C7F4AD700A13D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53D71C7F4AD700A13D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53E21C7F4AD700A13D10 /* Assets.xcassets in Resources */,
+				559A53E01C7F4AD700A13D10 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53E61C7F4AD700A13D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53F91C7F4AD700A13D10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559A53A81C7F4AD600A13D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53B71C7F4AD700A13D10 /* ViewController.m in Sources */,
+				559A53B41C7F4AD700A13D10 /* AppDelegate.m in Sources */,
+				559A53B11C7F4AD700A13D10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53C11C7F4AD700A13D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53CA1C7F4AD700A13D10 /* landoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53CC1C7F4AD700A13D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53D51C7F4AD700A13D10 /* landoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559A53E41C7F4AD700A13D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559A53F41C7F4AD700A13D10 /* ExtensionDelegate.m in Sources */,
+				559A53F11C7F4AD700A13D10 /* InterfaceController.m in Sources */,
+				559A53F71C7F4AD700A13D10 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559A53C71C7F4AD700A13D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559A53AB1C7F4AD600A13D10 /* lando */;
+			targetProxy = 559A53C61C7F4AD700A13D10 /* PBXContainerItemProxy */;
+		};
+		559A53D21C7F4AD700A13D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559A53AB1C7F4AD600A13D10 /* lando */;
+			targetProxy = 559A53D11C7F4AD700A13D10 /* PBXContainerItemProxy */;
+		};
+		559A53DC1C7F4AD700A13D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559A53D81C7F4AD700A13D10 /* lando WatchKit App */;
+			targetProxy = 559A53DB1C7F4AD700A13D10 /* PBXContainerItemProxy */;
+		};
+		559A53EB1C7F4AD700A13D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559A53E71C7F4AD700A13D10 /* lando WatchKit Extension */;
+			targetProxy = 559A53EA1C7F4AD700A13D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559A53B81C7F4AD700A13D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559A53B91C7F4AD700A13D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559A53BD1C7F4AD700A13D10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559A53BE1C7F4AD700A13D10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		559A53DE1C7F4AD700A13D10 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559A53DF1C7F4AD700A13D10 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559A53FB1C7F4AD700A13D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		559A53FC1C7F4AD700A13D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559A53FE1C7F4AD700A13D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "lando WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lando.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		559A53FF1C7F4AD700A13D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "lando WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lando.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		559A54021C7F4AD700A13D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = lando_WatchKit_Extension;
+				INFOPLIST_FILE = "lando WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lando.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		559A54031C7F4AD700A13D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = lando_WatchKit_Extension;
+				INFOPLIST_FILE = "lando WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lando.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		559A54061C7F4AD700A13D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lando/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		559A54071C7F4AD700A13D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lando/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		559A54091C7F4AD700A13D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = landoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.landoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lando.app/lando";
+			};
+			name = Debug;
+		};
+		559A540A1C7F4AD700A13D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = landoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.landoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lando.app/lando";
+			};
+			name = Release;
+		};
+		559A540C1C7F4AD700A13D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = landoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.landoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lando;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		559A540D1C7F4AD700A13D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = landoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.landoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lando;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559A53A71C7F4AD600A13D10 /* Build configuration list for PBXProject "lando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A53FB1C7F4AD700A13D10 /* Debug */,
+				559A53FC1C7F4AD700A13D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559A53FD1C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "lando WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A53FE1C7F4AD700A13D10 /* Debug */,
+				559A53FF1C7F4AD700A13D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559A54011C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "lando WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A54021C7F4AD700A13D10 /* Debug */,
+				559A54031C7F4AD700A13D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559A54051C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "lando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A54061C7F4AD700A13D10 /* Debug */,
+				559A54071C7F4AD700A13D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559A54081C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "landoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A54091C7F4AD700A13D10 /* Debug */,
+				559A540A1C7F4AD700A13D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559A540B1C7F4AD700A13D10 /* Build configuration list for PBXNativeTarget "landoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559A540C1C7F4AD700A13D10 /* Debug */,
+				559A540D1C7F4AD700A13D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559A53A41C7F4AD600A13D10 /* Project object */;
+}

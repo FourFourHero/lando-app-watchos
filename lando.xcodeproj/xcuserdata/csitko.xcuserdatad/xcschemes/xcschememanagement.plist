@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - lando WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>lando WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>lando.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>559A53AB1C7F4AD600A13D10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>559A53C41C7F4AD700A13D10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>559A53CF1C7F4AD700A13D10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>559A53D81C7F4AD700A13D10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
