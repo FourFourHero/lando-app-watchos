@@ -25,11 +25,11 @@
 
     __block CALDataRow *row;
     NSArray *messages = @[
-                          @{@"image": @"message_1", @"dataId": @"1", @"text": @"1"},
-                          @{@"image": @"message_2", @"dataId": @"2", @"text": @"2"},
-                          @{@"image": @"message_3", @"dataId": @"3", @"text": @"3"},
-                          @{@"image": @"message_4", @"dataId": @"4", @"text": @"4"},
-                          @{@"image": @"message_5", @"dataId": @"5", @"text": @"5"},
+                          @{@"image": @"message_1", @"dataId": @"1"},
+                          @{@"image": @"message_2", @"dataId": @"2"},
+                          @{@"image": @"message_3", @"dataId": @"3"},
+                          @{@"image": @"message_6", @"dataId": @"6"},
+                          @{@"image": @"message_5", @"dataId": @"5"},
                           ];
 
     [messages enumerateObjectsUsingBlock:^(NSDictionary *item, NSUInteger idx, BOOL *stop) {

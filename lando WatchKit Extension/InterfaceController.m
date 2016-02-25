@@ -22,7 +22,6 @@
                           @{@"image": @"sweintraub", @"dataId": @"sweintraub"},
                           @{@"image": @"pperon", @"dataId": @"pperon"},
                           @{@"image": @"dbialek", @"dataId": @"dbialek"},
-                          @{@"image": @"ltrempe", @"dataId": @"ltrempe"},
                           ];
 
     [managers enumerateObjectsUsingBlock:^(NSDictionary *item, NSUInteger idx, BOOL *stop) {
